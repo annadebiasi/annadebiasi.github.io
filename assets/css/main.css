@@ -519,14 +519,30 @@
 
 	#header {
 		color: #a6a6a6;
-		cursor: default;
 		position: relative;
 		text-align: center;
-		z-index: 10001;
 		padding-bottom: 2rem;
 	}
-	#header .image img{
+
+	#header .image .circle img{
 		width: 128px;
+		margin: 0px 50px;
+	}
+
+	#header .image .art img{
+		width: 55px;
+	}
+
+	#header .image .code img{
+		width: 65px;
+	}
+	
+	.me1{
+		text-align: center;
+	}
+	
+	.me1 img{
+		width: 500px;
 	}
 	
 
@@ -605,4 +621,10 @@
 
 .intro{
 	color: #e1e2e7;
+}
+
+
+.me1 {
+
+
 }
