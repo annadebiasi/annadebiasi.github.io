@@ -341,7 +341,7 @@
 		}
 
 		.row .inner {
-			padding: 6rem;
+			padding: 3rem;
 		}
 
 		.row .image {
@@ -395,7 +395,7 @@
 		@media screen and (max-width: 1280px) {
 
 			.row .inner {
-				padding: 4rem;
+				padding: 2rem 4rem 2rem 4rem;
 			}
 
 		}
@@ -525,7 +525,7 @@
 	}
 
 	#header .image .circle img{
-		width: 128px;
+		width: 110px;
 		margin: 0px 50px;
 	}
 
@@ -621,9 +621,9 @@
 }
 
 .intro{
+	text-align: center;
 	color: #e1e2e7;
 }
-
 
 .below {
 	font-size: 12px;
@@ -634,3 +634,16 @@
 	padding: 0.5rem;
 
 }
+
+.resume-button a{
+	color: #18453b;
+}
+
+.description {
+	padding: 2rem 0;
+	font-size: 20px;
+}
+
+.inner p{
+	margin: 0 0 1rem 0;
+} 
