@@ -75,6 +75,8 @@
 
 	a {
 		text-decoration: underline;
+		color: #a498aa;
+
 	}
 
 		a:hover {
@@ -154,10 +156,6 @@
 
 	input, select, textarea {
 		color: #3e3f44;
-	}
-
-	a {
-		color: #54a354;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -525,25 +523,26 @@
 	}
 
 	#header .image .circle img{
-		width: 110px;
+		width: 88px;
 		margin: 0px 50px;
 	}
 
 	#header .image .art img{
-		width: 55px;
+		width: 45px;
 	}
 
 	#header .image .code img{
-		width: 65px;
+		width: 50px;
 	}
 	
 	.me1{
 		text-align: center;
-		background-color: #000000;
+		background-color: #000000;	
 	}
 
 	.me1 img{
-		width: 800px;
+		width: 100%;
+    	max-width: 800px; 
 	}
 	
 
@@ -587,6 +586,7 @@
 
 	.wrapper.style .content {
 		padding: 3rem;
+		text-align: center;
 	}
 
 
@@ -632,6 +632,7 @@
 	width: 100%;
 	text-align: center;
 	padding: 0.5rem;
+	display: inline;
 
 }
 
