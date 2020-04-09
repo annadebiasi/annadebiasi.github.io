@@ -73,17 +73,6 @@
 		line-height: 1.65;
 	}
 
-	a {
-		text-decoration: underline;
-		color: #a498aa;
-
-	}
-
-		a:hover {
-			text-decoration: none;
-		}
-
-
 	em, i {
 		font-style: italic;
 	}
@@ -243,11 +232,11 @@
 			padding-left: 0.5rem;
 		}
 
-
 		ul.icons {
 			cursor: default;
 			list-style: none;
-			padding-left: 0;
+			padding: 0.6rem 0 0.5rem 0;
+			margin: 0;
 		}
 
 		ul.icons li {
@@ -585,7 +574,7 @@
 			
 
 	.wrapper.style .content {
-		padding: 3rem;
+		padding: 2rem;
 		text-align: center;
 	}
 
@@ -598,8 +587,14 @@
 
 	#footer {
 		font-size: 0.9rem;
-		margin: 0 0 2rem 0;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		background-color: #3e3f44;
 		text-align: center;
+		margin: 0;
+		opacity: 0.8;
 	}
 
 /* Icon */
@@ -633,11 +628,11 @@
 	text-align: center;
 	padding: 0.5rem;
 	display: inline;
-
+	border-radius: 5px;
 }
 
 .resume-button a{
-	color: #18453b;
+	color: #e1e2e7;
 }
 
 .description {
@@ -645,6 +640,27 @@
 	font-size: 20px;
 }
 
-.inner p{
-	margin: 0 0 1rem 0;
+.inner p, .inner h3{
+	margin: 0;
 } 
+
+.resume-button {
+	background-color: darkseagreen;
+	width: fit-content;
+    padding: 0.7em;
+	border-radius: 25px;
+}
+
+.resume-button a{
+	color: #e1e2e7;
+	text-decoration: none;
+}
+
+a {
+	color: #807088;
+	/* text-decoration: none; */
+}
+
+#portfolio:last-child {
+	margin-bottom: 2rem;
+}
