@@ -162,53 +162,13 @@
 		position: relative;
 	}
 
-		.image.flush {
-			margin: 0 !important;
-		}
+	.image.flush {
+		margin: 0 !important;
+	}
 
-		.image img {
-			display: block;
-		}
-
-		.image.left, .image.right {
-			max-width: 50%;
-		}
-
-			.image.left img, .image.right img {
-				width: 100%;
-			}
-
-		.image.left {
-			float: left;
-			margin: 0 1rem 1rem 0;
-			top: 0.25rem;
-		}
-
-		.image.right {
-			float: right;
-			margin: 0 0 1rem 1rem;
-			top: 0.25rem;
-		}
-
-		.image.fit {
-			display: block;
-			margin: 0 0 2rem 0;
-			width: 100%;
-		}
-
-			.image.fit img {
-				width: 100%;
-			}
-
-		.image.main {
-			display: block;
-			margin: 0 0 3rem 0;
-			width: 100%;
-		}
-
-			.image.main img {
-				width: 100%;
-			}
+	.image img {
+		display: block;
+	}
 
 /* List */
 
@@ -252,9 +212,6 @@
 			font-size: 2rem;
 		}
 
-		
-
-
 	dl {
 		margin: 0 0 2rem 0;
 	}
@@ -279,11 +236,10 @@
 		text-align: center;
 	}
 
-	header p {
+	header p, #header span {
 		position: relative;
 		margin: 0 0 1.5rem 0;
 		color: #bbb;
-
 	}
 
 	header h2 + p {
@@ -317,9 +273,6 @@
 			-webkit-flex-grow: 0;
 			-ms-flex-grow: 0;
 			flex-grow: 0;
-		}
-
-		.row > * {
 			width: 50%;
 		}
 
@@ -382,7 +335,7 @@
 		@media screen and (max-width: 1280px) {
 
 			.row .inner {
-				padding: 2rem 4rem 2rem 4rem;
+				padding: 2rem 3rem;
 			}
 
 		}
@@ -414,9 +367,6 @@
 					-webkit-flex-grow: 0;
 					-ms-flex-grow: 0;
 					flex-grow: 0;
-				}
-
-				.row > * {
 					width: 100%;
 				}
 
@@ -562,8 +512,8 @@
 		.wrapper > header p {
 			text-transform: uppercase;
 			font-weight: 300;
-			font-size: .8rem;
-			letter-spacing: .25rem;
+			font-size: .85rem;
+			letter-spacing: .3rem;
 			margin: 0;
 		}
 
@@ -594,13 +544,13 @@
 		background-color: #3e3f44;
 		text-align: center;
 		margin: 0;
-		opacity: 0.8;
+		opacity: 0.65;
 	}
 
 /* Icon */
 
 .icon img{
-	width: 30px;
+	width: 38px;
 }
 
 
@@ -623,7 +573,7 @@
 .below {
 	font-size: 12px;
 	color: #3e3f44;
-    background-color: #c3b6c9;
+    background-color: #efe5f3;
 	width: 100%;
 	text-align: center;
 	padding: 0.5rem;
@@ -649,6 +599,7 @@
 	width: fit-content;
     padding: 0.7em;
 	border-radius: 25px;
+	margin: 1rem 0;
 }
 
 .resume-button a{
@@ -658,9 +609,23 @@
 
 a {
 	color: #807088;
-	/* text-decoration: none; */
+	text-decoration: none;
 }
 
 #portfolio:last-child {
 	margin-bottom: 2rem;
+}
+
+.inner .size {
+	margin: 0 0 1rem 0;
+}
+
+.sides {
+	background-color: #000000;
+}
+
+.white{
+	color: #fff;
+	background-color: #000000;
+
 }
