@@ -47,6 +47,7 @@
 	.foot {
 		margin-left: auto;
 		margin-right: auto;
+		color: #e1e2e7;
 	}
 
 /* Basic */
@@ -495,6 +496,10 @@
 
 /* Main */
 
+	#main {
+		margin: 0 0 3.5rem 0;
+	}
+
 	#main > .inner {
 		margin: 0 auto;
 		width: 80rem;
@@ -570,9 +575,9 @@
 }
 
 
-#portfolio:last-child {
+/* #portfolio:last-child {
 	margin-bottom: 2.5rem;
-}
+} */
 
 
 .intro{
@@ -647,8 +652,6 @@
 	margin: 0 0 1rem 0;
 }
 
-
-
 .description {
 	padding: 2rem 0;
 	font-size: 20px;
@@ -658,8 +661,21 @@
 	background-color: #000000;
 }
 
-.copyright{
-	color:#fff;
+@media (max-width: 560px) {
+    .copyright {
+		color:#fff;
+		margin: 0 1rem;
+		float: right;
+		display: contents;
+	}
+}
 
+.copyright {
+	color:#fff;
+	margin: 0 1rem;
+	float: right;
+	position: absolute;
+    right: 26px;
+    bottom: 17px;
 }
 
