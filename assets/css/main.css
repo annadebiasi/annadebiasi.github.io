@@ -497,7 +497,7 @@
 /* Main */
 
 	#main {
-		margin: 0 0 3.5rem 0;
+		margin: 0 0 60px 0;
 	}
 
 	#main > .inner {
@@ -667,6 +667,9 @@
 		margin: 0 1rem;
 		float: right;
 		display: contents;
+	}
+	#main{
+		margin: 0 0 84px 0;
 	}
 }
 
