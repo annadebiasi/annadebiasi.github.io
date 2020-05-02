@@ -207,7 +207,7 @@
 
 		ul.icons li {
 			display: inline-block;
-			padding: 0 1rem 0 0;
+			padding: 0 0.6rem 0 0;
 		}
 
 		ul.icons li:last-child {
@@ -660,7 +660,7 @@
 	background-color: #000000;
 }
 
-@media (max-width: 560px) {
+@media (max-width: 610px) {
     .copyright {
 		color:#fff;
 		margin: 0 1rem;
@@ -681,3 +681,11 @@
     bottom: 17px;
 }
 
+.artpal img{
+	width: 68px;
+	margin: 10px 0;
+}
+
+.mail img{
+	margin: 2px 0px;
+}
