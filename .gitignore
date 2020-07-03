@@ -1,0 +1,3 @@
+# Ignoring files by extension
+# All files with these extensions will be ignored in
+*.DS_STORE
