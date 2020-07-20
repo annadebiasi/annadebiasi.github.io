@@ -68,7 +68,7 @@
 	}
 
 	body {
-		background-color: #fff;
+		background-color: #ffffff;
 		color: rgba(0, 0, 0, 0.5);
 	}
 
@@ -330,7 +330,7 @@
 			}
 
 			.row.alt h3 {
-				color: #FFF;
+				color: #ffffff;
 			}
 
 			.row.alt .image {
@@ -343,7 +343,7 @@
 		@media screen and (max-width: 1280px) {
 
 			.row .inner {
-				padding: 2rem 3rem;
+				padding: 1.5rem 3rem;
 			}
 
 		}
@@ -514,7 +514,7 @@
 	}
 	.wrapper > header {
 		text-align: center;
-		background: #FFF;
+		background: #ffffff;
 		padding: 2rem;
 		margin: 0;
 	}
@@ -546,7 +546,7 @@
 /* Footer */
 
 	#footer a:hover {
-		color: #FFF;
+		color: #ffffff;
 	}
 
 	#footer {
@@ -629,8 +629,7 @@
 }
 
 .rest h2{
-	color: #e1e2e7;
-	;
+	color: #ffffff;
 }
 
 .rest h3, .rest p{
@@ -664,7 +663,7 @@
 
 @media (max-width: 610px) {
     .copyright {
-		color:#fff;
+		color:#ffffff;
 		margin: 0 1rem;
 		float: right;
 		display: contents;
@@ -675,7 +674,7 @@
 }
 
 .copyright {
-	color:#fff;
+	color:#ffffff;
 	margin: 0 1rem;
 	float: right;
 	position: absolute;
@@ -693,7 +692,7 @@
 }
 
 .about-me {
-	background-color: #f0eefd;
+	background-color: #ffffff;
     padding: 1rem;
     text-align: center;
     margin: 0 auto 6rem auto;
