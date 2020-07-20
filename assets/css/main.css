@@ -445,7 +445,6 @@
 			-ms-transition: opacity 1.5s ease-in-out, visibility 1.5s;
 			transition: opacity 1.5s ease-in-out, visibility 1.5s;
 			content: '';
-			background-image: url(../../images/bg.jpg);
 			background-attachment: fixed;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -567,10 +566,17 @@
 	width: 38px;
 }
 
+.fineArtLogo img{
+	width: 120px !important;
+	filter: brightness(0) invert(1);
+	margin: 12px 0px;
+}
+
 
 /* Portfolio */
 
 #portfolio{
+	margin: auto;
 	padding: 1rem;
 }
 
