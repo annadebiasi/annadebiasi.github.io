@@ -457,7 +457,7 @@
 			width: 100%;
 			z-index: -1;
 			visibility: visible;
-			opacity: 1;
+			opacity: 1; 
 		}
 
 			
@@ -466,7 +466,7 @@
 		color: #a6a6a6;
 		position: relative;
 		text-align: center;
-		padding-bottom: 2rem;
+		padding: 1rem 0rem 2rem 0rem;
 	}
 
 	#header .image .circle img{
@@ -475,10 +475,12 @@
 	}
 
 	#header .image .art img{
+	    filter: invert(8%);
 		width: 45px;
 	}
 
 	#header .image .code img{
+		filter: invert(8%);
 		width: 50px;
 	}
 	
@@ -567,7 +569,7 @@
 }
 
 .fineArtLogo img{
-	width: 120px !important;
+	width: 55px !important;
 	filter: brightness(0) invert(1);
 	margin: 12px 0px;
 }
@@ -580,12 +582,6 @@
 	padding: 1rem;
 }
 
-
-/* #portfolio:last-child {
-	margin-bottom: 2.5rem;
-} */
-
-
 .intro{
 	text-align: center;
 	color: #e1e2e7;
@@ -595,8 +591,7 @@
 /* Below */
 .below {
 	font-size: 12px;
-	color: #3e3f44;
-    background-color: #efe5f3;
+	color: #e1e2e7;
 	text-align: center;
 	padding: 0.5rem;
 	display: inline;
@@ -634,7 +629,8 @@
 }
 
 .rest h2{
-	color: #FFFFFF;
+	color: #e1e2e7;
+	;
 }
 
 .rest h3, .rest p{
@@ -697,7 +693,7 @@
 }
 
 .about-me {
-	background-color: #ffffff;
+	background-color: #f0eefd;
     padding: 1rem;
     text-align: center;
     margin: 0 auto 6rem auto;
