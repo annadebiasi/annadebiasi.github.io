@@ -8,6 +8,8 @@
 		<link rel='icon' href='/images/profile/logo.png' type='image/png'>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-1MRRQXSZEX"></script>
+		<script type="text/javascript" src="assets/js/art.js"></script>
+
 		<script>
 			window.dataLayer = window.dataLayer || [];
 			function gtag(){dataLayer.push(arguments);}
@@ -16,13 +18,12 @@
 			gtag('config', 'G-1MRRQXSZEX');
 		</script>
 	</head>
-	<body>
-
+	<body>	
 		<!-- Header -->
 		<header id="header">
-			<div class="image"><a class="code" href="/code"><img src="images/header/code.png" alt="" /><span>code</span></a></div>
+			<div class="image"><a class="code" href="/code"><img src="images/header/code.png" alt="" onclick="enlargeImg(this)"/><span>code</span></a></div>
 			<div class="image"><a class="circle" href="/index"><img src="images/header/logo.png" alt=""/><span>home</span></a></div>
-			<div class="image"><a class="art" href="/art"><img src="images/header/art.png" alt="" /><span>art</span></a></div>
+			<div class="image"><a class="art" href="/art"><img src="images/header/art.png" alt="" onclick="enlargeImg(this)"/><span>art</span></a></div>
 		</header>
 
 		<!-- Main -->
@@ -46,7 +47,7 @@
 			<!-- Grid 1 - available for sale -->
 			<section id="portfolio" class="wrapper">
 				<div class="row">
-					<div class="image flush"><img src="images/art/sale/polar.jpg" alt="" /></div>
+					<div class="image flush"><img src="images/art/sale/polar.jpg" alt="" onclick="showPreview('images/art/sale/polar.jpg')"/></div>
 					<div  class="inner">
 						<h3>Polar</h3>
 						<p class="description">"Everybody needs a friend"</p>
@@ -57,7 +58,7 @@
 					</div>
 				</div>
 				<div class="row alt">
-					<div class="image flush"><img src="images/art/sale/valley.jpg" alt="" /></div>
+					<div class="image flush"><img src="images/art/sale/valley.jpg" alt="" onclick="showPreview('images/art/sale/valley.jpg')"/></div>
 					<div class="inner">
 						<h3>Valley</h3>
 						<p class="description">trough of nature surrounding a bountiful reserve</p>
@@ -68,7 +69,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="image flush"><img src="images/art/sale/galaxy.jpg" alt="" /></div>
+					<div class="image flush"><img src="images/art/sale/galaxy.jpg" alt="" onclick="showPreview('images/art/sale/galaxy.jpg')"/></div>
 					<div class="inner">
 						<h3>Galaxy</h3>
 						<p class="description">vast expansion of the universe</p>
@@ -80,7 +81,7 @@
 					</div>
 				</div>
 				<div class="row alt">
-					<div class="image flush"><img src="images/art/sale/lightning.jpg" alt="" /></div>
+					<div class="image flush"><img src="images/art/sale/lightning.jpg" alt="" onclick="showPreview('images/art/sale/lightning.jpg')"/></div>
 					<div class="inner">
 						<h3>Lightning</h3>
 						<p class="description">light striking a mountanous beach at night</p>
@@ -91,7 +92,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="image flush"><img src="images/art/sale/jellyfish.jpg" alt="" /></div>
+					<div class="image flush"><img src="images/art/sale/jellyfish.jpg" alt="" onclick="showPreview('images/art/sale/jellyfish.jpg')"/></div>
 					<div class="inner">
 						<h3>Jellyfish</h3>
 						<p class="description">the depth of the ocean</p>
@@ -102,7 +103,7 @@
 					</div>
 				</div>
 				<div class="row alt">
-					<div class="image flush"><img src="images/art/sale/mountains.jpg" alt="" /></div>
+					<div class="image flush"><img src="images/art/sale/mountains.jpg" alt="" onclick="showPreview('images/art/sale/mountains.jpg')"/></div>
 					<div class="inner">
 						<h3>River</h3>
 						<p class="description">stream parting through mountains and clouds</p>
@@ -123,7 +124,7 @@
 
 			<section id="portfolio" class="wrapper">
 				<div class="row alt">
-					<div class="image flush"><img src="images/art/plus/dreamscape.jpg" alt="" /></div>
+					<div class="image flush"><img src="images/art/plus/dreamscape.jpg" alt="" onclick="showPreview('images/art/plus/dreamscape.jpg')"/></div>
 					<div  class="inner">
 						<h3>Twighlight</h3>
 						<p class="description">dreaming</p>
@@ -133,7 +134,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="image flush"><img src="images/art/plus/pearl.jpg" alt="" /></div>
+					<div class="image flush"><img src="images/art/plus/pearl.jpg" alt="" onclick="showPreview('images/art/plus/pearl.jpg')"/></div>
 					<div class="inner">
 						<h3>Pearl</h3>
 						<p class="description">my foster dog ♡</p>
@@ -143,7 +144,7 @@
 					</div>
 				</div>
 				<div class="row alt">
-					<div class="image flush"><img src="images/art/plus/waves.jpg" alt="" /></div>
+					<div class="image flush"><img src="images/art/plus/waves.jpg" alt="" onclick="showPreview('images/art/plus/waves.jpg')"/></div>
 					<div  class="inner">
 						<h3>Serenity</h3>
 						<p class="description">calmness of the sun, birds and waves</p>
@@ -153,7 +154,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="image flush"><img src="images/art/plus/field.jpg" alt="" /></div>
+					<div class="image flush"><img src="images/art/plus/field.jpg" alt="" onclick="showPreview('images/art/plus/field.jpg')"/></div>
 					<div class="inner">
 						<h3>Field</h3>
 						<p class="description">in rememberance of my friends' grandparents</p>
@@ -163,7 +164,7 @@
 					</div>
 				</div>
 				<div class="row alt">
-					<div class="image flush"><img src="images/art/plus/louie.png" alt="" /></div>
+					<div class="image flush"><img src="images/art/plus/louie.png" alt="" onclick="showPreview('images/art/plus/louie.png')"/></div>
 					<div  class="inner">
 						<h3>Louie</h3>
 						<p class="description">my heart and soul</p>
@@ -173,7 +174,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="image flush"><img src="images/art/plus/husky.png" alt="" /></div>
+					<div class="image flush"><img src="images/art/plus/husky.png" alt="" onclick="showPreview('images/art/plus/husky.png')"/></div>
 					<div class="inner">
 						<h3>Husky</h3>
 						<p class="description">first Painting</p>
@@ -184,7 +185,7 @@
 				</div>
 				
 				<div class="row alt">
-					<div class="image flush"><img src="images/art/plus/buildings.png" alt="" /></div>
+					<div class="image flush"><img src="images/art/plus/buildings.png" alt="" onclick="showPreview('images/art/plus/buildings.png')"/></div>
 					<div class="inner">
 						<h3>Buildings</h3>
 						<p class="description">gift for my grandma &lt3</p>
@@ -194,7 +195,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="image flush"><img src="images/art/plus/eye-colored.png" alt="" /></div>
+					<div class="image flush"><img src="images/art/plus/eye-colored.png" alt="" onclick="showPreview('images/art/plus/eye-colored.png')"/></div>
 					<div class="inner">
 						<h3>Colored Eye</h3>
 						<!-- <p class="description"></p> -->
@@ -204,7 +205,7 @@
 					</div>
 				</div>
 				<div class="row alt">
-					<div class="image flush"><img src="images/art/plus/crying.png" alt="" /></div>
+					<div class="image flush"><img src="images/art/plus/crying.png" alt="" onclick="showPreview('images/art/plus/crying.png')"/></div>
 					<div  class="inner">
 						<h3>Crying</h3>
 						<!-- <p class="description"></p> -->
@@ -215,7 +216,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="image flush"><img src="images/art/plus/eye-pencil.png" alt="" /></div>
+					<div class="image flush"><img src="images/art/plus/eye-pencil.png" alt="" onclick="showPreview('images/art/plus/eye-pencil.png')"/></div>
 					<div  class="inner">
 						<h3>Pencil Eye</h3>
 						<!-- <p class="description"></p> -->
