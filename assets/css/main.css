@@ -593,8 +593,8 @@
 }
 
 .previewImage {
- 	max-width:90%;
-    max-height: 90%;
+ 	max-width:85%;
+    max-height: 85%;
     background-color: rgba(255,255,255,.6);
     z-index: 1001;
 	margin: auto;
