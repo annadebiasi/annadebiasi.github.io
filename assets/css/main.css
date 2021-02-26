@@ -574,6 +574,10 @@
 	margin: 12px 0px;
 }
 
+.tiktok img {
+	height: 38px !important;
+    margin: 0px -6px;
+}
 
 /* Portfolio */
 
